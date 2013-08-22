@@ -1,9 +1,26 @@
 <div class="intro">
-	
+
 SITW 代表 Student In TaiWan 的簡稱。<br>
 本組織致力讓全台灣的大學生有更優質的生活、和生活體驗。<br>
 歡迎有興趣的人一同來打造你我所幻想的大學生活<br>
 
-We Make Campus Awesome!!! <br>
+	<div class="slogan">
+		We Make Campus Awesome!!! 
+	</div>
+	<div class="select">
+		<div class="select-title">
+			系所選擇
+		</div>
+		<div id="select-content">
+			<ul> 
+				<li ng-repeat="dep in department">
+					<a href="#/{{dep[0]}}{{dep[1]}}" class="class-list" >
+						{{dep[0]}}{{dep[1]}}
+					</a>
+
+				</li>
+			</ul>
+		</div>
+	</div>
 
 </div>

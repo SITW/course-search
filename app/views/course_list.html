@@ -94,3 +94,20 @@
 	</tr>
 
 </table>
+
+<div class="select">
+	<div class="select-title">
+		系所選擇
+	</div>
+	<div id="select-content">
+		<ul>
+				    <li ng-repeat="dep in department">
+				    	<a href="#/{{dep[0]}}{{dep[1]}}" class="class-list" >
+				    		{{ dep[0] }}
+				    		{{ dep[1] }}
+				    	</a>
+				    </li>
+		</ul>
+
+	</div>
+</div>

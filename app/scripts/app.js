@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('courseSearchApp', ['majorCourse'])
+angular.module('courseSearchApp', ['majorCourse', 'department'])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
