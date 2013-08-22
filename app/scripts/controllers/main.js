@@ -9,7 +9,6 @@ angular.module('courseSearchApp')
   })
   .controller('mainPage', function ($scope, Department, $routeParams) {
   	$scope.department = Department.query({}, function(dep) {
-  		console.log(dep);
   	});
   });
 
