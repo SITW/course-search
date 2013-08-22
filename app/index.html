@@ -13,6 +13,7 @@
 
         <!-- build:css({.tmp,app}) styles/main.css -->
         <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="css/index.css">
         <!-- endbuild -->
 </head>
   <body ng-app="courseSearchApp">
@@ -26,9 +27,37 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
-    <div class="container" ng-view="">
+    <div class="wrapper">
+        <header>
+            <div class="top">
+                SITW
+            </div>
+            <div class="line">
+                <img src="images/line.png" alt="">
+            </div>
+            <div class="bottom">
+                課程搜尋網
+            </div>
 
+        </header>
+        <div class="container" ng-view="">
+
+        </div>
     </div>
+    <footer>
+      Copyright &copy 2013 SITW All Rights Reserved.  
+      <a href="http://sitw.tw/", target="_blank">       關於我們 
+      </a>
+      & 
+      <a href="http://blog.sitw.tw/", target="_blank"> 
+        部落格
+      </a>
+      &
+      <a href="http://member.sitw.tw/", target="_blank">
+        成員
+      </a>
+
+    </footer>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
