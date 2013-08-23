@@ -1,0 +1,112 @@
+<table id="course-table">
+	<tr>
+
+		<td>
+			系號
+		</td>
+
+		<td>
+			系所名稱
+		</td>
+
+		<td>
+			序號
+		</td>
+
+		<td>
+			課程碼
+		</td>
+
+		<td>
+			類別
+		</td>
+
+		<td>
+			選必修
+		</td>
+
+		<td>
+			教師姓名
+		</td>
+
+		<td>
+			課程名稱
+		</td>
+
+		<td>
+			學分
+		</td>
+
+		<td>
+			時間
+		</td>
+
+		<td>
+			教室
+		</td>
+	</tr>
+	<tr class="course-class" ng-repeat="class in major">
+
+		<td>
+			{{class["系號"]}}
+		</td>
+
+		<td>
+			{{class["系所名稱"]}}
+		</td>
+
+		<td>
+			{{class["序號"]}}
+		</td>
+
+		<td>
+			{{class["課程碼"]}}
+		</td>
+
+		<td>
+			{{class["類別"]}}
+		</td>
+
+		<td>
+			{{class["選必修"]}}
+		</td>
+
+		<td>
+			{{class["教師姓名 *:主負責老師"]}}
+		</td>
+
+		<td>
+			{{class["課程名稱 (連結課程地圖)"]}}
+		</td>
+		
+		<td>
+			{{class["學分"]}}
+		</td>
+
+		<td>
+			{{class["時間"]}}
+		</td>
+
+		<td>
+			{{class["教室"]}}
+		</td>
+	</tr>
+
+</table>
+
+<div class="select">
+	<div class="select-title">
+		系所選擇
+	</div>
+	<div id="select-content">
+		<ul>
+				    <li ng-repeat="dep in department">
+				    	<a href="#/{{dep[0]}}{{dep[1]}}" class="class-list">
+				    		{{ dep[0] }}
+				    		{{ dep[1] }}
+				    	</a>
+				    </li>
+		</ul>
+
+	</div>
+</div>
