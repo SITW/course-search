@@ -253,6 +253,7 @@ module.exports = function (grunt) {
           src: [
             '*.{ico,png,txt}',
             '.htaccess',
+            'CNAME',
             'data/*',
             'bower_components/**/*',
             'images/{,*/}*.{gif,webp}',
