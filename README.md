@@ -22,6 +22,15 @@ using Angular.js + Yeoman
 
 grunt server to serve and watch. 
 
+## Deploy
+
+  $ grunt build
+
+add go to root file
+
+  $ git subtree push --prefix dist origin gh-pages
+
+
 ## Author
 
 - @chilijung[http://www.github.com/chilijung]
