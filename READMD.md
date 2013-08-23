@@ -2,9 +2,19 @@
 
 using Angular.js + Yeoman
 
+## Required
+
+- npm 
+- nodejs
+
 ## Usage 
 
 - clone the repo 
+
+- install packages
+
+  $ bower install
+  $ npm install
 
 - using grunt to compile files
 
