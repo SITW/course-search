@@ -14,6 +14,7 @@ using Angular.js + Yeoman
 - install packages
 
       $ bower install
+      
       $ npm install
 
 - using grunt to compile files
