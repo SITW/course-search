@@ -3,6 +3,9 @@ body{
 	background-repeat: repeat;
 	margin: 0 auto;
 }
+.container{
+        margin-top:6px;
+}
 .wrapper{
 	text-align: center;
 }
