@@ -1,3 +1,6 @@
+<div class=".search_bar">
+<input type="search" ng-model="q" placeholder="filter class...">                                                                                        
+</div>
 <table id="course-table">
 	<tr>
 
@@ -45,7 +48,7 @@
 			教室
 		</td>
 	</tr>
-	<tr class="course-class" ng-repeat="class in major">
+	<tr class="course-class" ng-repeat="class in major | filter:q ">
 
 		<td>
 			{{class["系號"]}}
