@@ -37,8 +37,8 @@ td {
 	font-family: 'Alegreya SC', serif;
 	position: fixed;
 	right:3%;
-	top:20%;
-	height: 400px;
+	top:5%;
+	height: auto;
 	overflow: auto;
 	width: 100px;
 	border:1px solid black;
@@ -46,10 +46,10 @@ td {
 .select-title{
 	background-color: #fff76c;
 }
-.select-content{
+#select-content{
 	text-align: left;
 }
-.select-content li{
+#select-content li{
 	list-style: none;
 }
 .table-content{
