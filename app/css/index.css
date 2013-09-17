@@ -35,13 +35,13 @@ td {
 }
 .select{
 	font-family: 'Alegreya SC', serif;
-	position: fixed;
-	right:3%;
-	top:5%;
-	height: auto;
-	overflow: auto;
-	width: 100px;
-	border:1px solid black;
+  position: fixed;
+  right:3%;
+  top:20%;
+  height: 400px;
+  overflow: auto;
+  width: 150px;
+  border:1px solid black;
 }
 .select-title{
 	background-color: #fff76c;
