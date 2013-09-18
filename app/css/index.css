@@ -4,7 +4,8 @@ body{
 	margin: 0 auto;
 }
 .container{
-        margin-top:6px;
+        margin-top: 6px;
+        overflow: scroll;
 }
 .wrapper{
 	text-align: center;
@@ -32,6 +33,8 @@ td {
 	text-align: center;
 	line-height: 200%;
 	border: 1px solid #CCC;
+	margin: 5px;
+	white-space: nowrap;
 }
 .select{
 	font-family: 'Alegreya SC', serif;
