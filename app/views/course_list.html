@@ -1,5 +1,5 @@
 <div class=".search_bar">
-<input type="search" ng-model="q" placeholder="filter class..." />                                                                                        
+<input type="search" ng-model="q" placeholder="filter class..." />
 </div>
 <table id="course-table">
 	<tr>
@@ -20,6 +20,10 @@
 			課程碼
 		</td>
 
+    <td>
+      課程名稱
+    </td>
+
 		<td>
 			類別
 		</td>
@@ -30,10 +34,6 @@
 
 		<td>
 			教師姓名
-		</td>
-
-		<td>
-			課程名稱
 		</td>
 
 		<td>
@@ -66,6 +66,10 @@
 			{{class["課程碼"]}}
 		</td>
 
+    <td>
+      {{class["課程名稱 (連結課程地圖)"]}}
+    </td>
+
 		<td>
 			{{class["類別"]}}
 		</td>
@@ -78,10 +82,6 @@
 			{{class["教師姓名 *:主負責老師"]}}
 		</td>
 
-		<td>
-			{{class["課程名稱 (連結課程地圖)"]}}
-		</td>
-		
 		<td>
 			{{class["學分"]}}
 		</td>
