@@ -14,6 +14,15 @@
         <link rel="stylesheet" href="styles/a9889c0b.main.css">
 </head>
   <body ng-app="courseSearchApp">
+
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/zh_TW/all.js#xfbml=1&appId=234790190008057";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
     <!--[if lt IE 7]>
       <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
     <![endif]-->
@@ -28,6 +37,7 @@
         <header>
             <div class="top" onclick="location.href='/'">
                 SITW
+                <div class="fb-like" data-href="https://www.facebook.com/sitwgroup" data-width="450" data-layout="box_count" data-action="recommend" data-show-faces="false" data-send="false"></div>
             </div>
             <div class="line">
                 <img src="images/a959c50b.line.png" alt="">
